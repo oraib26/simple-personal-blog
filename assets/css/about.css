@@ -1,0 +1,29 @@
+@import url("layout.css");
+@import url("about.css");
+@import url("blogPost.css");
+@import url("main.css");
+
+
+main.about{
+  
+    grid-area: main;
+    margin: 0 30px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main.about h1{
+  
+margin-bottom: 30px;
+
+}
+
+.aboutme {
+    font-weight: 600;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color: rgb(122, 128, 111);
+  }
